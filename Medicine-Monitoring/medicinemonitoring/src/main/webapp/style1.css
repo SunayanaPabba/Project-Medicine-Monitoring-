@@ -1,0 +1,176 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+.formdata1 h1{
+	font-size:25px;
+	font-family:TimesNewRomans;
+}
+ul{
+	text-align:center;	
+}
+.header ul{
+	text-align:right;
+	margin-right:30px;	
+}
+li{
+	display:inline-table;
+	padding:10px;
+ 	font-size:20px;	
+}
+.header li{
+	display:inline-table;
+	padding:10px;
+ 	font-size:20px;	
+	text-shadow: 0 0 3px #0080c0;
+}
+.header li a:hover{
+	color:#ff8040;
+	font-size:20px;
+}
+
+body{
+	color:white;
+	font-family:serif;
+	background-color:#00ffff;
+	text-align:center;
+	align:center;
+	background-image:url("medi9.jpg");
+	overflow:scroll;
+}
+.header{
+	color:#0080c0;
+	width:100%;
+	height:100px;
+	background-color:#ffffff;	
+	padding:15px;
+	font-family:TimesNewRomans;
+	font-weight:bold;	
+}
+.formdata
+{
+	width:400px;
+	height:auto;
+	text-align:center;
+	border:2px solid white;
+	border-radius:15px;
+	margin-top:10px;
+	font-family:TimesNewRomans;
+	display:inline-block;
+}
+.formdata1
+{
+	width:auto;
+	height:auto;
+	text-align:center;
+	border:none;
+	margin-top:10px;
+	display:inline-block;	
+}
+.formcontrol
+{
+	 padding:10px;
+	 height:5px;
+	 margin-top:10px;
+}
+.formdata a{
+	text-decoration: none;
+	font-size: 18px;
+	color:Yellow;
+}
+.header a{
+	text-decoration: none;
+	font-size: 18px;
+	color:#0080c0;
+}
+.formsubmitbutton
+{
+	width: 100px;
+	height: 25px;
+	border-radius: 20px;
+	margin-top: 10px;		
+}
+
+.select-box{
+   width:170px;
+   height:24px;
+   overflow: hidden;
+   border: 1px solid #ccc;
+   margin:auto;
+   border-radius:6px
+}
+.select-field{
+	border:none;
+   text-shadow: 0 0 3px #0080c0;
+   font-size:16px;
+   color:#0080c0;
+}
+table.t1{
+	background-color:#c0c0c0; 
+	text-align:center;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border-collapse:collapse;
+	align:center;		
+}
+button{
+	background-color:#0080c0;
+	color:white; 
+}
+.dropdown ul{
+	float:left;
+	overflow:hidden;
+}
+.dropdown-content{
+	display:none;
+	position:absolute;
+	background-color:white;
+	width:160px;
+}
+.dropdown-content ul{
+	float:none;
+	display:block;
+	margin-top:10px;
+	margin-left:-15px;
+	text-align:left;
+		
+}
+.dropdown-content ul li{
+	text-shadow:none;	
+}
+.dropdown-content a:hover{
+	color:black;
+	background-color:#ddd;
+}
+.dropdown:hover .dropdown-content{
+	display:block;
+}
+
+.menubar{
+	float:left;
+	overflow:hidden;
+}
+.submenubar{
+	display:none;
+	position:absolute;
+	background-color:white;
+	width:180px;
+}
+.submenubar ul{
+	float:none;
+	display:table;
+	margin-top:10px;
+	margin-left:-15px;
+	text-align:left;		
+}
+.submenubar ul li {
+	color:black; 
+}
+.submenubar ul li a{
+ 	color:black;
+	
+}
+.submenubar a:hover{
+	background-color:#ddd;
+}
+.menubar:hover .submenubar{
+	display:block;
+}
